@@ -1,9 +1,9 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-parcelize'
 
 android {
-    compileSdkVersion 33
+    compileSdk  33
     defaultConfig {
         applicationId "com.example.androidx.viewpager2"
         minSdkVersion 14
@@ -28,6 +28,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    namespace 'androidx.viewpager2.integration.testapp'
 }
 
 dependencies {
