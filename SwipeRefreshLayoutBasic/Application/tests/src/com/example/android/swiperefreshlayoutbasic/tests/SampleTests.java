@@ -18,7 +18,7 @@ package com.example.android.swiperefreshlayoutbasic.tests;
 
 import com.example.android.swiperefreshlayoutbasic.*;
 
-import android.support.v4.widget.SwipeRefreshLayout;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import android.test.ActivityInstrumentationTestCase2;
 import android.test.TouchUtils;
 import android.view.Gravity;
