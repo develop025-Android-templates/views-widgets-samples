@@ -21,8 +21,8 @@ import com.example.android.common.logger.Log;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.widget.SwipeRefreshLayout;
+import androidx.fragment.app.Fragment;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -35,7 +35,7 @@ import android.widget.GridView;
 import java.util.List;
 
 /**
- * A sample which shows how to use {@link android.support.v4.widget.SwipeRefreshLayout} to add
+ * A sample which shows how to use {@link SwipeRefreshLayout} to add
  * the 'swipe-to-refresh' gesture to a layout with multiple children. In this sample,
  * SwipeRefreshLayout contains a scrollable {@link android.widget.GridView}, along with a
  * {@link android.widget.TextView} empty view.
